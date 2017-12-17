@@ -4,7 +4,7 @@
 
 #define MEAS_TIME 0
 
-#if 1	// set 1 if you don't need debug message
+#if 0	// set 1 if you don't need debug message
 	#ifndef LOG_NDEBUG
 		#define	LOG_NDEBUG		// ignore LOGV/LOGD/MARK
 	#endif

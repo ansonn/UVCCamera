@@ -26,7 +26,7 @@
 #include <linux/time.h>
 #include <unistd.h>
 
-#if 1	// set 1 if you don't need debug log
+#if 0	// set 1 if you don't need debug log
 	#ifndef LOG_NDEBUG
 		#define	LOG_NDEBUG		// w/o LOGV/LOGD/MARK
 	#endif
